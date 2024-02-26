@@ -1,0 +1,155 @@
+/*.s {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(#cc9bb3, #eebfbf, #cc9bb3, #eebfbf);
+  }
+  
+  .s-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .s-right {
+    flex: 1;
+    position: relative;
+  }
+  
+  .s-left-wrapper {
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .s-intro {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  
+  .s-skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .s-skill-item {
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  */
+
+  .s{
+    height: 220vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px 40px 30px;
+    background: linear-gradient(#cc9bb3, #eebfbf, #cc9bb3, #eebfbf);
+}
+
+.s-title {
+    align-items: center;
+    text-align: center;
+}
+
+.s-title-text {
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.s-left-top{
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    min-height: 50%;
+}
+
+.s-right-top{
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    min-height: 50%;
+}
+.s-left-bottom{
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    min-height: 50%;
+}
+.s-right-bottom{
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    min-height: 50%; 
+}
+
+.s-left-top-title {
+    font-size: 26px;
+    font-weight: 1200;
+}
+
+.s-left-bottom-title {
+    font-size: 26px;
+    font-weight: 1200;
+}
+
+
+.s-right-top-title {
+    font-size: 26px;
+    font-weight: 1200;
+}
+
+
+.s-right-bottom-title {
+    font-size: 26px;
+    font-weight: 1200;
+}
+
+.s-left-top-wrapper {
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    text-align: left;
+    justify-content: center; /* Horizontally center the content */
+}
+
+.s-right-top-wrapper {
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    text-align: left;
+    justify-content: center; /* Horizontally center the content */
+}
+
+.s-left-bottom-wrapper {
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    text-align: left;
+    justify-content: center; /* Horizontally center the content */
+}
+
+.s-right-bottom-wrapper {
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+    text-align: left;
+    justify-content: center; /* Horizontally center the content */
+}
+
+.s-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* Two columns with auto width */
+    grid-template-rows: 2fr 1fr; /* Three rows with equal height */
+    gap: 0px; /* Gap between grid items */
+  }
+  
+  /* Style for the grid items */
+.s-left-top, .s-right-top, .s-left-bottom, .s-right-bottom {
+    padding: 0px;
+}
